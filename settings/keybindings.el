@@ -1,6 +1,6 @@
 ;; don't accidentally close emacs all the time-add
 (global-set-key (kbd "C-x r q") 'save-buffers-kill-terminal)
-(global-set-key (kbd "C-x C-c") 'delete-frame)
+(global-set-key (kbd "C-x d f") 'delete-frame)
 
 ;; disable mail command
 (global-set-key (kbd "C-x m") nil)
